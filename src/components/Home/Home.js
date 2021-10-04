@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Courses from '../Courses/Courses';
 import './Home.css';
-import img from '../../images/img-2.jpg'
 
 const Home = () => {
     const [courses, setCourses] = useState([]);

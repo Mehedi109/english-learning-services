@@ -20,11 +20,6 @@ const Courses = (props) => {
                 </CardGroup>
             </div >
         </Col >
-        // <div>
-        //     <h5>Name : {name}</h5>
-        //     <h5>Price : {price}</h5>
-        //     <img src={img} alt="" />
-        // </div>
     );
 };
 

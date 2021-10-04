@@ -10,6 +10,7 @@ const AllCourses = () => {
             .then(res => res.json())
             .then(data => setCourses(data));
     }, []);
+
     return (
         <div>
             <div>
