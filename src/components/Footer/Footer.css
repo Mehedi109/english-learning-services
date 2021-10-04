@@ -1,0 +1,22 @@
+.footer{
+    background-color: rgb(48, 48, 71);
+    padding: 10px 0px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.footer h6{
+    margin-top: 30px;
+    font-size: 20px;
+    color:white;
+}
+.footer p{
+    margin-bottom: 30px;
+    color: white;
+}
+.footer i{
+    font-size: 20px;
+    background-color: #ddd;
+    padding: 10px;
+    margin: 10px;
+    border-radius:50% ;
+}

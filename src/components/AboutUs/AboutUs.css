@@ -1,0 +1,14 @@
+.about{
+    margin-bottom: 80px;
+    display: flex;
+}
+.about-text{
+    padding: 20px;
+}
+.about h2{
+    color: tomato;
+    margin-bottom: 40px;
+}
+.about span{
+    color: rgba(0, 0, 0, 0.795);
+}

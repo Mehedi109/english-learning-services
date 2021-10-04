@@ -1,0 +1,30 @@
+.home{
+    background: url('../../images/img-2.jpg');
+    background-size: cover;
+    opacity: 0.6;
+    height: 500px;
+}
+
+.home-text{
+    color: white;
+    position: relative;
+    top:30%;
+}
+
+.home-text h4{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #ff3b00;
+}
+
+.home-text h5{
+    color: red;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.home-text h6{
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+}
