@@ -12,11 +12,13 @@ const AllCourses = () => {
     }, []);
 
     return (
-        <div>
+        <>
             <div>
-                <Container fluid>
-                    <h1 style={{ marginTop: '20px' }}>Courses</h1>
-                    <p>See Our All courses</p>
+                <Container fluid className="courses">
+                    <div style={{ position: 'relative', top: '30px', bottom: '20px' }}>
+                        <h2 style={{ fontWeight: 'bold' }}>Courses</h2>
+                        <p style={{ marginBottom: '40px' }}>See Our All courses</p>
+                    </div>
                     <Row>
                         {
                             courses.map(course => <Courses
@@ -27,7 +29,7 @@ const AllCourses = () => {
                     </Row>
                 </Container>
             </div>
-        </div>
+        </>
     );
 };
 

@@ -1,14 +1,29 @@
 .about{
-    margin-bottom: 80px;
+    margin-bottom: 10px;
     display: flex;
+    background-color: rgb(249,249,249);
 }
+
+.about-image{
+    margin-top: 50px;
+}
+
 .about-text{
     padding: 20px;
+    position: relative;
+    bottom: 20px;
 }
+
 .about h2{
     color: tomato;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
+
 .about span{
     color: rgba(0, 0, 0, 0.795);
+}
+
+.about li{
+    margin-top: 10px;
+    text-align: justify;
 }

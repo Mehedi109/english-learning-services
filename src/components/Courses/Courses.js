@@ -8,7 +8,7 @@ const Courses = (props) => {
         <Col xs={12} md={6} lg={3} className="g-4">
             <div className="shadow-lg">
                 <CardGroup>
-                    <Card>
+                    <Card className="course-card">
                         <Card.Img variant="top" src={img} />
                         < Card.Body >
                             <Card.Title>{name}</Card.Title>

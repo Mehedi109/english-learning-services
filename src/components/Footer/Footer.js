@@ -10,7 +10,7 @@ const Footer = () => {
                 <i class="fab fa-linkedin-in"></i>
                 <i class="fab fa-twitter"></i>
                 <i class="fab fa-youtube"></i>
-                <p>Copyright &copy; 2021 LearnEnglish</p>
+                <p>Copyright &copy; 2021 | LearnEnglish</p>
             </div>
         </>
     );

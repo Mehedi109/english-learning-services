@@ -13,7 +13,7 @@
     },
     {
         "id": 3,
-        "name": "Online Regular IELTS Course",
+        "name": "Regular IELTS Course",
         "price": 7000,
         "img": "https://exam-practice.com/wp-content/uploads/2019/04/complete-ielts-student-s-book.jpg"
     },
@@ -21,7 +21,7 @@
         "id": 4,
         "name": "IELTS Crash Course",
         "price": 5000,
-        "img": "http://domaininternational.in/wp-content/uploads/2020/01/IELTS-Crash-Course-2-min.jpg"
+        "img": "https://domaininternational.in/wp-content/uploads/2020/01/IELTS-Crash-Course-2-min.jpg"
     },
     {
         "id": 5,

@@ -1,17 +1,19 @@
 .footer{
-    background-color: rgb(48, 48, 71);
+    background-color: rgb(12,75,101);
     padding: 10px 0px;
     margin-top: 10px;
     margin-bottom: 0;
 }
 .footer h6{
-    margin-top: 30px;
+    margin-top: 45px;
     font-size: 20px;
     color:white;
+    margin-bottom: 15px;
 }
 .footer p{
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: white;
+    margin-top:10px;
 }
 .footer i{
     font-size: 20px;

@@ -14,25 +14,27 @@ const Home = () => {
 
     return (
         <>
-            <div className="home">
-                <div className="home-text">
-                    <h4>Learning English is easy,not hard !!!</h4>
-                    <h5>Take your learning as fun,enjoy it and learn much</h5>
-                    <h6>Start your learning today,don't stop your learning and fullfill your dream</h6>
+            <div className="home all-bg">
+                <div className="home-banner">
+                    <div className="home-text">
+                        <h4>Learning English is easy,not hard</h4>
+                        <h5>Take your learning as fun,enjoy it and learn much</h5>
+                        <h6>Start your learning today,don't stop your learning and fullfill your dream</h6>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <Container fluid>
-                    <h1 style={{ marginTop: '30px', marginBottom: '20px', }}>Our Courses</h1>
-                    <Row>
-                        {
-                            courses.map(course => <Courses
-                                key={course.id}
-                                course={course}
-                            ></Courses>).slice(0, 4)
-                        }
-                    </Row>
-                </Container>
+                <div>
+                    <Container fluid className="courses">
+                        <h2 style={{ marginTop: '50px', marginBottom: '20px', fontWeight: 'bold' }}>Our Courses</h2>
+                        <Row>
+                            {
+                                courses.map(course => <Courses
+                                    key={course.id}
+                                    course={course}
+                                ></Courses>).slice(0, 4)  // slice is used for showing only four courses
+                            }
+                        </Row>
+                    </Container>
+                </div>
             </div>
         </>
     );

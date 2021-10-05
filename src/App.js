@@ -13,7 +13,7 @@ import Contact from './components/Contact/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App all-bg">
       <Router>
         <Header></Header>
         <Switch>
