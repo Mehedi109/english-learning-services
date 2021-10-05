@@ -1,6 +1,6 @@
 ﻿Website Name : LearnEnglish
 
-Website link : https://hardcore-mcnulty-1500f4.netlify.app/about
+Website link : https://hardcore-mcnulty-1500f4.netlify.app
 
 
 ### I have used html,css,react,react bootstrap for this project
